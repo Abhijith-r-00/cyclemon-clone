@@ -1,0 +1,143 @@
+body{
+    display: block;
+}
+body,html{
+    background-color: #fec56d;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-size: 50%;
+}
+#menu{
+    float: left;
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    z-index: 50;
+}div {
+    display: block;
+    unicode-bidi: isolate;
+}
+#menu img{
+    margin-right: 30px;
+}
+img{
+    border: 0px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+#know{
+    opacity: .5;
+
+}
+#share{
+    float: left;
+    position: fixed;
+    z-index: 50;
+    left: 40px;
+    bottom: 40px;
+}
+#share a{
+    opacity: .4;
+}
+#intro{
+    background: url(./assets/navfont/titrefront.jpg) 0 no-repeat;
+    background-color: #fec56d;
+    background-position: center;
+    background-size: 50%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+#intro img{
+
+}
+#intro a{
+    border: none;
+    background-color: transparent;
+    opacity: 0.6;
+    bottom: 15px;
+    position: fixed;
+    left: 50%;
+    width: 30px;
+    margin-left: -15px;
+    z-index:120;
+   
+}
+#bg1{
+    background: url(./assets/bg/fond18.jpg) 50% no-repeat fixed;
+    background-color: #000;
+    background-size: 1200px;
+    color: white;
+    height: 120px;
+    width:100%;
+    margin: 0 auto;
+    padding-top: 0%;
+    overflow: hidden;
+    z-index: 2;
+
+}
+#bg1 p{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 11px;
+    color: #fff;
+    position: fixed;
+    bottom: 96px;
+    right: 32px;
+    text-align: center;
+    display: none;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+hr {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+.story{
+    margin: 0 auto;
+    min-width: 980px;
+    overflow: auto;
+    width: 980px;
+}
+#bg1 .cycle{
+    background: url(./assets/cycle/velo18.png) 50% 81% no-repeat fixed;
+    height: 120px;
+    padding: 0%;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+    top: 0%;
+}
+#bg1 img{
+    position: fixed;
+    bottom: 44px;
+    right: 40px;
+    display: none;
+}
