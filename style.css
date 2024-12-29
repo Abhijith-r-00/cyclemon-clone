@@ -2,7 +2,7 @@ body{
     display: block;
 }
 body,html{
-    background-color: #fec56d;
+    /* background-color: #fec56d; */
     margin: 0px;
     padding: 0px;
     height: 100%;
@@ -78,19 +78,7 @@ div {
     z-index:120;
    
 }
-#bg1{
-    background: url(./assets/bg/fond18.jpg) 50% no-repeat fixed;
-    background-color: #000;
-    background-size: 1200px;
-    color: white;
-    height: 120px;
-    width:100%;
-    margin: 0 auto;
-    padding-top: 0%;
-    overflow: hidden;
-    z-index: 2;
 
-}
 #bg1 p{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 11px;
@@ -126,18 +114,447 @@ hr {
     overflow: auto;
     width: 980px;
 }
-#bg1 .cycle{
-    background: url(./assets/cycle/velo18.png) 50% 81% no-repeat fixed;
-    height: 120px;
-    padding: 0%;
-    position: absolute;
-    width: inherit;
-    z-index: 10;
-    top: 0%;
-}
+
 #bg1 img{
     position: fixed;
     bottom: 44px;
     right: 40px;
     display: none;
+}
+#bg1{
+    background: url('./assets/bg/fond18.jpg') 50% no-repeat fixed;
+    background-color: #000;
+    background-size: 1071px;;
+    color: white;
+    height: 100%;
+    width:100%;
+    margin: 0 auto;
+    padding-top: 0%;
+    overflow: hidden;
+    z-index: 2;
+
+}
+#bg1 .cycle{
+    background: url(./assets/cycle/velo18.png) 50% 81% no-repeat fixed;
+    height: 100%;
+    padding: 0%;
+    position: absolute;
+    width: inherit;
+    z-index: 50;
+    /* top: 0%; */
+}
+#traveler {
+    background: url('assets/bg/bg2.jpg') 50%  no-repeat fixed;
+    background-color: #f4d0ad;
+    background-size: 1071px;
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#traveler .cycle {
+    background: url('./assets/cycle/travelerbg2.png') 50% 81% no-repeat fixed;
+    height: 100%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+#bg3 {
+    background: url('./assets/bg/bg3.jpg') 50%  no-repeat fixed;
+    background-color: #b1deed;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg3 .cycle {
+    background: url('./assets/cycle/weirdobg3.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+
+
+
+#bg4 {
+    background: url('assets/bg/bg4.jpg') 50% no-repeat fixed;
+    background-color:  #f79cc1;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg4 .cycle {
+    background: url('./assets/cycle/hipsterbg4.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+
+
+
+#bg5 {
+    background: url('assets/bg/bg5.jpg') 50% no-repeat fixed;
+    background-color:#abe7f4;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg5 .cycle {
+    background: url('./assets/cycle/bg5.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+
+
+#bg6 {
+    background: url('assets/bg/bg6.jpg') 50% no-repeat fixed;
+    background-color: #f8d5b8;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg6 .cycle {
+    background: url('./assets/cycle/bg6.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+#bg7 {
+    background: url('assets/bg/bg7.jpg') 50% no-repeat fixed;
+    background-color: #a0e3ff;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg7 .cycle {
+    background: url('./assets/cycle/bg7.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+
+#bg8 {
+    background: url('assets/bg/bg8.jpg') 50% no-repeat fixed;
+    background-color: #f7ca7d;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg8 .cycle {
+    background: url('./assets/cycle/bg8.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+
+
+#bg9 {
+    background: url('assets/bg/bg9.jpg') 50% no-repeat fixed;
+    background-color:#fbdff8;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg9 .cycle {
+    background: url('./assets/cycle/bg9.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+#bg10 {
+    background: url('assets/bg/bg10.jpg') 50% no-repeat fixed;
+    background-color: #c6deff;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg10 .cycle {
+    background: url('./assets/cycle/bg10.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+#bg11 {
+    background: url('assets/bg/bg11.jpg') 50% no-repeat fixed;
+    background-color: #91f9d3;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg11 .cycle {
+    background: url('./assets/cycle/bg11.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+#bg12 {
+    background: url('assets/bg/bg12.jpg') 50% no-repeat fixed;
+    background-color: #f8c075;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg12 .cycle {
+    background: url('./assets/cycle/bg12.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+
+#bg13 {
+    background: url('assets/bg/bg13.jpg') 50% no-repeat fixed;
+    background-color: #ffd4ab;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg13 .cycle {
+    background: url('./assets/cycle/bg13.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+#bg14 {
+    background: url('assets/bg/bg14.jpg') 50% no-repeat fixed;
+    background-color: #b2fad7;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg14 .cycle {
+    background: url('./assets/cycle/bg14.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+
+#bg14 {
+    background: url('assets/bg/bg14.jpg') 50% no-repeat fixed;
+    background-color: #b2fad7;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg14 .cycle {
+    background: url('./assets/cycle/bg14.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+
+
+#bg15 {
+    background: url('assets/bg/bg15.jpg') 50% no-repeat fixed;
+    background-color: #dbdbdb;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg15 .cycle {
+    background: url('./assets/cycle/bg15.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+#bg16 {
+    background: url('assets/bg/bg16.jpg') 50% no-repeat fixed;
+    background-color:#fddcae;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg16 .cycle {
+    background: url('./assets/cycle/bg16.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+
+
+#bg17 {
+    background: url('assets/bg/bg17.jpg') 50% no-repeat fixed;
+    background-color: #fb9d79;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg17 .cycle {
+    background: url('./assets/cycle/bg17.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+
+#bg18 {
+    background: url('assets/bg/bg18.jpg') 50% no-repeat fixed;
+    background-color: #f6978f;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg18 .cycle {
+    background: url('./assets/cycle/bg18.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+}
+
+#bg19 {
+    background: url('assets/bg/bg19.jpg') 50% no-repeat fixed;
+    background-color: #f4d0ad;
+    background-size: 1071px;
+    color: white;
+    height: 120%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+#bg19 .cycle {
+    background: url('./assets/cycle/bg19.png') 50% 81% no-repeat fixed;
+    height: 120%;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
 }
