@@ -1,251 +1,405 @@
 <!-- https://www.cyclemon.com/ -->
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cyclemon/Experiment</title>
-    <link rel="stylesheet" href="./style.css">
- </head>
- <body>
-    <div id="menu">
-        <a href="#intro" id="exp">
-            <img src="./assets/navfont/experiment.png" alt="">
-        </a>
-        <a href="know/know.html" id="know">
-            <img src="./assets/navfont/know.png" alt="">
-        </a>
-        <a href="shop/shop.html" id="shop">
-            <img src="./assets/navfont/shop.png" alt="">
-        </a>
+    <!-- Add jQuery if not already included -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="shortcut icon" href="./assets/cycle/icon-removebg-preview.png" type="image/x-icon">
+    <script src="./paralax.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
+  <body>
+    <div id="menu">
+      <a href="#intro" id="exp">
+        <img src="./assets/navfont/experiment.png" alt="" />
+      </a>
+      <a href="know/know.html" id="know">
+        <img src="./assets/navfont/know.png" alt="" />
+      </a>
+      <a href="shop/shop.html" id="shop">
+        <img src="./assets/navfont/shop.png" alt="" />
+      </a>
     </div>
     <div id="share">
-        <a href="#">
-            <img src="./assets/navfont/share.png" alt="Share button">
-        </a>
+      <a href="#">
+        <img src="./assets/navfont/share.png" alt="Share button" />
+      </a>
     </div>
-    <div id="intro">
-        <a href="#fond19" style="display: block;"><img alt="fleche" src="./assets/navfont/downarrow.png"></a>
-    </div>
-    <div id="bg1" style="background-position: 50%;">
-        <a href="" target="_blank">
-        <p style="display: none"> "Watch the" <br>"Trailer"</p></a><br>
-        <hr style="display: none;">
-        <br><a href="" target="_blank"><img src="./assets/navfont/roundopacity.png" alt="">
 
-        </a>
-        <div class="story">
-                <div class="cycle"></div>
-        </div>
+    <ul id="nav">
+      <div id="nom">
+        <li>
+          <a id="b1" href="#intro" title="Next Section" style="display: none"
+            ><img src="assets/cycle/titleintro.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b19" href="#bg1" title="Next Section"
+            ><img src="images/title20.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b2" href="#traveler" title="Next Section" style="display: none"
+            ><img src="images/title2.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b3" href="#bg2" title="Next Section"
+            ><img src="images/title3.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b4" href="#bg3" title="Next Section"
+            ><img src="images/title4.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b5" href="#bg4" title="Next Section"
+            ><img src="images/title5.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b6" href="#bg5" title="Next Section"
+            ><img src="images/title6.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b7" href="#bg6" title="Next Section"
+            ><img src="images/title7.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b8" href="#bg7" title="Next Section"
+            ><img src="images/title8.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b9" href="#bg8" title="Next Section"
+            ><img src="images/title9.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b10" href="#bg9" title="Next Section" style="display: none"
+            ><img src="images/title10.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b11" href="#bg10" title="Next Section" style="display: none"
+            ><img src="images/title11.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b12" href="#bg11" title="Next Section"
+            ><img src="images/title12.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b13" href="#bg12" title="Next Section"
+            ><img src="images/title13.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b14" href="#bg13" title="Next Section" style="display: none"
+            ><img src="images/title14.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b15" href="#bg14" title="Next Section"
+            ><img src="images/title15.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b16" href="#bg15" title="Next Section"
+            ><img src="images/title16.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b17" href="#bg16" title="Next Section"
+            ><img src="images/title17.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b18" href="#bg17" title="Next Section"
+            ><img src="images/title18.png" alt="Link"
+          /></a>
+        </li>
+        <li>
+          <a id="b20" href="#bg18" title="Next Section"
+            ><img src="images/title19.png" alt="Link"
+          /></a>
+        </li>
+    </div>
+      <li>
+        <a id="n1" href="#intro" title="Next Section" style="opacity: 1"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n19" href="#bg1" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n2" href="#traveler" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n3" href="#bg2" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n4" href="#bg3" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n5" href="#bg4" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n6" href="#bg5" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n7" href="#bg6" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n8" href="#bg7" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n9" href="#bg8" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n10" href="#bg9" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n11" href="#bg10" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n12" href="#bg11" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n13" href="#bg12" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n14" href="#bg13" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n15" href="#bg14" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n16" href="#bg15" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n17" href="#bg16" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n18" href="#bg17" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+      <li>
+        <a id="n20" href="#bg18" title="Next Section" style="opacity: 0.4"
+          ><img src="./assets/cycle/button nv.png" alt="Link"
+        /></a>
+      </li>
+    </ul>
+
+    <div id="intro">
+      <a href="#fond19" style="display: block"
+        ><img alt="fleche" src="./assets/navfont/downarrow.png"
+      /></a>
+    </div>
+    <div id="bg1" style="background-position: 50%" class="parallax-section">
+      <a href="" target="_blank">
+        <p style="display: none">"Watch the" <br />"Trailer"</p>
+      </a>
+      <hr style="display: none" />
+      <a href="" target="_blank"
+        ><img src="./assets/navfont/roundopacity.png" alt="" />
+      </a>
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
 
     <!-- --------------1------------- -->
-    <div id="traveler" style="background-position: 50%;">
-        <div class="story">
-            <div class="cycle">
-            </div>
-
-        </div>
+    <div
+      id="traveler"
+      class="parallax-section"
+      style="background-position: 50%"
+    >
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-<!-- ----------------------------------------------------- -->
+    <!-- ----------------------------------------------------- -->
 
-
-
-
-
-<!-- -------------------3------------------------- -->
-<div id="bg3" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- -------------------3------------------------- -->
+    <div id="bg3" class="parallax-section" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
 
-<!-- ------------------------------ -->
+    <!-- ------------------------------ -->
 
-<!-- --------------------------------4-------------------- -->
-<div id="bg4" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- --------------------------------4-------------------- -->
+    <div id="bg4" class="parallax-section" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
+    <!-- --------------------------------------------------- -->
 
-<!-- --------------------------------5-------------------- -->
-<div id="bg5" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- --------------------------------5-------------------- -->
+    <div id="bg5" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
+    <!-- --------------------------------------------------- -->
 
-
-
-<!-- --------------------------------6-------------------- -->
-<div id="bg6" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- --------------------------------6-------------------- -->
+    <div id="bg6" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
+    <!-- --------------------------------------------------- -->
 
-
-
-
-<!-- --------------------------------7-------------------- -->
-<div id="bg7" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- --------------------------------7-------------------- -->
+    <div id="bg7" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
+    <!-- --------------------------------------------------- -->
 
-
-
-
-
-<!-- --------------------------------8-------------------- -->
-<div id="bg8" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- --------------------------------8-------------------- -->
+    <div id="bg8" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
+    <!-- --------------------------------------------------- -->
 
-
-<!-- --------------------------------9-------------------- -->
-<div id="bg9" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- --------------------------------9-------------------- -->
+    <div id="bg9" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
-    
+    <!-- --------------------------------------------------- -->
 
-
-<!-- --------------------------------10-------------------- -->
-<div id="bg10" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- --------------------------------10-------------------- -->
+    <div id="bg10" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
+    <!-- --------------------------------------------------- -->
 
-
-<!-- --------------------------------11-------------------- -->
-<div id="bg11" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- --------------------------------11-------------------- -->
+    <div id="bg11" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
+    <!-- --------------------------------------------------- -->
 
-
-<!-- --------------------------------12-------------------- -->
-<div id="bg12" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- --------------------------------12-------------------- -->
+    <div id="bg12" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
+    <!-- --------------------------------------------------- -->
 
-
-<!-- --------------------------------13-------------------- -->
-<div id="bg13" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- --------------------------------13-------------------- -->
+    <div id="bg13" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
+    <!-- --------------------------------------------------- -->
 
-
-<!-- -------------------------------14------------------- -->
-<div id="bg14" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- -------------------------------14------------------- -->
+    <div id="bg14" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
+    <!-- --------------------------------------------------- -->
 
-<!-- --------------------------------15-------------------- -->
-<div id="bg15" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- --------------------------------15-------------------- -->
+    <div id="bg15" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
+    <!-- --------------------------------------------------- -->
 
-
-<!-- --------------------------------16-------------------- -->
-<div id="bg16" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- --------------------------------16-------------------- -->
+    <div id="bg16" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
+    <!-- --------------------------------------------------- -->
 
-
-<!-- --------------------------------17-------------------- -->
-<div id="bg17" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- --------------------------------17-------------------- -->
+    <div id="bg17" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
+    <!-- --------------------------------------------------- -->
 
-
-<!-- ------------------------------18------------------ -->
-<div id="bg18" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- ------------------------------18------------------ -->
+    <div id="bg18" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
+    <!-- --------------------------------------------------- -->
 
-<!-- ------------------------------19------------------ -->
-<div id="bg19" style="background-position: 50%;">
-    <div class="story">
-        <div class="cycle">
-        </div>
-
+    <!-- ------------------------------19------------------ -->
+    <div id="bg19" style="background-position: 50%">
+      <div class="story">
+        <div class="cycle"></div>
+      </div>
     </div>
-</div>
-<!-- --------------------------------------------------- -->
-
-
-
-
- </body>
- </html>
+    <!-- --------------------------------------------------- -->
+  </body>
+</html>
