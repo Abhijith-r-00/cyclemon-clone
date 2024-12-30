@@ -540,10 +540,10 @@ hr {
     z-index: 10;
 }
 
-#bg19 {
-    background: url('assets/bg/bg19.jpg') 50% no-repeat fixed;
-    background-color: #f4d0ad;
-    background-size: 1071px;
+/* #bg19 { */
+    /* background: url('assets/bg/bg19.jpg') 50% no-repeat fixed; */
+   
+    /* background-size: 1071px;
     color: white;
     height: 120%;
     width: 100%;
@@ -551,15 +551,24 @@ hr {
     padding-top: 0;
     overflow: hidden;
     position: relative;
+} */
+#bg19 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    background-color: #f68076;
+    height: 100vh;        
+    width: 100%;            
+    margin: 0;              
 }
-#bg19 .cycle {
-    background: url('./assets/cycle/bg19.png') 50% 81% no-repeat fixed;
-    height: 120%;
-    padding: 0;
-    position: absolute;
-    width: inherit;
-    z-index: 10;
+
+#bg19 h1 {
+    text-align: center;     
+    margin: 0;              
+    color: white;           
 }
+
+
 .parallax-section {
     height: 500px;
     background-attachment: fixed;
